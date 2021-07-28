@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <title>Animal Lovers</title>
+</head>
+<body>
+
+  <!-- --------------------- Hlavička ------------------ -->
+  <section>
+    <header>
+      <div class="topbar container">
+        <div class="logo">
+          <a href=""><img class="logo__picture" src="images/heart.png" alt=""></a>
+          <a class="logo__name" href=""><span>Animal</span> Lovers</span></a>
+        </div>
+        <div class="navigation">
+          <button class="navigation__btn"></button>
+          <nav class="nav-closed">
+            <a href="">Lvi</a>
+            <a href="">Zebry</a>
+            <a href="">Žirafy</a>
+            <a href="">Pumy</a>
+            <a href="">Kohouti</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <!-- ---------------------- Homepage ---------------------- -->
+
+  <section class="home">
+    <div class="container">
+      <div class="home__name"> 
+        <div class="home__name-1">African</div>
+        <div class="home__name-2">Lion</div>
+      </div> 
+      <div class="gallery">
+        <div class="gallery__photo">
+          <img class="gallery__item" src="images/lion.jpg" alt="">
+          <h4>Lev</h4>
+        </div>
+        <div class="gallery__photo">
+          <img class="gallery__item" src="images/zebra.jpg" alt="">
+          <h4>Zebra</h4>
+        </div>
+        <div class="gallery__photo">
+          <img class="gallery__item" src="images/tyger.jpg" alt="">
+          <h4>Tygr</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------Zvířata podle světadílu----------- -->
+
+  <section class="hidden container">
+    <h3 class="title__animals">Zvířata podle světadílu</h3>
+    <div class="map">
+      <img src="images/mapa.png" alt="">
+      <div class="map__item-1">
+        <img class="map__image" src="images/MedvedLedni.png" alt="Medvěd lední">
+        <span class="tooltiptext">Medvěd lední</span>
+      </div>
+      <div class="map__item-2">
+        <img class="map__image" src="images/KlokanRudy.png" alt="Klokan rudý">
+        <span class="tooltiptext">Klokan rudý</span>
+      </div>
+      <div class="map__item-3">
+        <img class="map__image" src="images/KobraKralovska.png" alt="Kobra královská">
+        <span class="tooltiptext">Kobra královská</span>
+      </div>
+      <div class="map__item-4">
+        <img class="map__image" src="images/LevAfricky.png" alt="Lev Africký">
+        <span class="tooltiptext">Lev africký</span>
+      </div>
+      <div class="map__item-5">
+        <img class="map__image" src="images/TygrBily.png" alt="Tygr bílý">
+        <span class="tooltiptext">Tygr bílý</span>
+      </div>
+      <div class="map__item-6">
+        <img class="map__image" src="images/MedvedKanadsky.png" alt="Medvěd kanadský">
+        <span class="tooltiptext">Medvěd kanadský</span>
+      </div>
+    </div>
+  </section>
+    
+<!-- -------------------Aktuality --------------------- -->
+
+  <section class="container">
+    <h3 class="title__actuality">Aktuality</h3>
+    <div class="newsletter">
+      <div class="newsletter__content">
+        <img src="images/bird.jpg" alt="Pták">
+        <div class="newsletter__text">
+          <a href="">Lorem ipsum dolor sit amet</a>
+          <p>Quisque et purus magna.Sed egestas facilisis fringilla.</p>
+        </div>
+      </div>
+      <div class="newsletter__content">
+        <img src="images/horse.jpg" alt="Kůň">
+        <div class="newsletter__text">
+          <a href="">Lorem ipsum dolor sit amet</a>
+          <p>Quisque et purus magna.Sed egestas facilisis fringilla.</p>
+        </div>
+      </div>
+      <div class="newsletter__content">
+        <img src="images/puma.jpg" alt="Puma">
+        <div class="newsletter__text">
+          <a href="">Lorem ipsum dolor sit amet</a>
+          <p>Quisque et purus magna.Sed egestas facilisis fringilla.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------- Novinky e-mailem ---------------- -->
+
+  <section class="container">
+    <h3 class="news__title">Novinky e-mailem</h3>
+    <form action="">
+      <label for="">
+        Váš email: 
+        <input type="text" placeholder="@">
+      </label>
+      <br>
+      <label for="">
+        Váše země: 
+        <select name="" id="">
+          <option value="" disabled selected hidden>Vyberte zemi</option>
+          <option value="">Česká republika</option>
+          <option value="">Německo</option>
+          <option value="">Velká Británi</option>
+          <option value="">Spojené státy americké</option>
+          <option value="">Kanada</option>
+        </select> 
+      </label>
+      <br>
+      <button class="news__btn">Chci Novinky</button>
+    </form>
+  </section>
+
+  <footer>
+    <div>
+      <p>2021 Animal Lovers</p>
+    </div>
+  </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
