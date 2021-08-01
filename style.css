@@ -194,13 +194,13 @@ section {
 
 .map {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
+  padding: 0 4rem 0 4rem;
 }
 
 .map img {
   width: 100%;
-  height: 100%;
   object-fit:cover;
 }
 
@@ -212,7 +212,7 @@ section {
 
 .map__item-1 {
   position:absolute;
-  left: 29rem;
+  left: 23rem;
   top: 0rem;
   width: 2rem;
   height: 2rem;
@@ -220,16 +220,16 @@ section {
 
 .map__item-2 {
   position:absolute;
-  left: 62rem;
-  top: 6rem;
+  left: 57rem;
+  top: 6.5rem;
   width: 2rem;
   height: 2rem;
 }
 
 .map__item-3 {
   position: absolute;
-  top: 2.5rem;
-  left:49rem;
+  top: 3rem;
+  left:44rem;
   width: 2rem;
   height: 2rem;
 }
@@ -237,7 +237,7 @@ section {
 .map__item-4 {
   position: absolute;
   top: 5rem;
-  left: 40rem;
+  left: 35rem;
   width: 2rem;
   height: 2rem;
 }
@@ -247,7 +247,7 @@ section {
   width: 2rem;
   height: 2rem;
   top: 0rem;
-  left: 52rem;
+  left: 47rem;
 }
 
 .map__item-6 {
@@ -255,7 +255,15 @@ section {
   width: 2rem;
   height: 2rem;
   top: 1rem;
-  left: 19rem;
+  left: 13rem;
+}
+
+.map__item-7 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 6rem;
+  left: 17rem;
 }
 
 .map__item-1 .tooltiptext,
@@ -263,7 +271,8 @@ section {
 .map__item-3 .tooltiptext,
 .map__item-4 .tooltiptext,
 .map__item-5 .tooltiptext,
-.map__item-6 .tooltiptext {
+.map__item-6 .tooltiptext,
+.map__item-7 .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: rgb(37, 37, 37);
@@ -285,7 +294,8 @@ section {
 .map__item-3 .tooltiptext::after,
 .map__item-4 .tooltiptext::after,
 .map__item-5 .tooltiptext::after,
-.map__item-6 .tooltiptext::after{
+.map__item-6 .tooltiptext::after,
+.map__item-7 .tooltiptext::after{
   content: "";
   position: absolute;
   top: 100%;
@@ -301,7 +311,8 @@ section {
 .map__item-3:hover .tooltiptext,
 .map__item-4:hover .tooltiptext,
 .map__item-5:hover .tooltiptext,
-.map__item-6:hover .tooltiptext{
+.map__item-6:hover .tooltiptext,
+.map__item-7:hover .tooltiptext{
   visibility: visible;
   opacity: 1;
 }
@@ -366,9 +377,7 @@ h3 {
 /* ---------------Novinky e-mailem-------------- */
 form {
   text-align: center;
-  margin-bottom: 2rem;
 }
-
 
 .news__title::before,
 .news__title::after {
@@ -456,7 +465,8 @@ picture img{
   color: white;
 }
 .species__btn {
-  text-align: center
+  text-align: center;
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 .species__btn span {
@@ -609,6 +619,7 @@ footer p {
   input, select {
     width: 13rem;
   }
+
 }
 
 
